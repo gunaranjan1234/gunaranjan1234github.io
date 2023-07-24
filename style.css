@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* text-emphasis-color: black;
+  text-overflow: ; */
+}
+body{
+  overflow-x: hidden;
+  background: white;
+  min-height: 100vh;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
+.Logo{
+   color: black;
+  font-weight:700;
+  font-size:2em ;
+  text-decoration: none;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.navigation li{
+  list-style: none;
+}
+.navigation li a{
+  text-decoration: none;
+  padding: 5px 10px;
+  color:black;
+  border-radius: 20px;
+  
+}
+.navigation li a:hover
+{
+  background: black;
+  color: white;
+}
+
+
+.Boxing{
+  border-style:outset;
+  border-right-style:dotted;
+  border-left-style:dotted;
+}
+head,body{
+  border-style:solid;
+  border-width:5px;
+}
+.heading{
+  border-bottom-color:red;
+  position:relative;
+  bottom:20px;
+}
+body{
+  background-image: url("https://t3.ftcdn.net/jpg/02/98/20/18/360_F_298201895_5bPjYW2qPWJ52Wg40H80d8hCAHsPIfpE.jpg"); 
+
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+*{
+  color:black;
+}
+
+/* .div1{
+  border:1px solid red;
+  margin-top: 100px;
+  margin-bottom:100px;
+  margin-left:80px;
+  margin-right:80px;
+  background-color:lightblue;
+  border-style:double;
+} */
+a:link{
+  color:blue;
+}
+a:visited{
+  color:red;
+}
+a:hover{
+  color:black;
+}
+a:active{
+  color:blue;
+}
+#table {
+    border: 1px solid;
+  }
+/* .box1{
+  border-style:outset;
+  border-right-style:groove;
+  border-left-style:groove;
+} */
+
+/* Bold{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+} */
+/* The element to apply the animation to */
